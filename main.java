@@ -1,4 +1,5 @@
-String season = "spring";
+```java
+    String season = "spring";
 
     if (season == "winter") {
       System.out.println("Wear a warm jacket!");
@@ -13,3 +14,4 @@ String season = "spring";
       System.out.println("Wear a rain coat!");
     }    
   }
+```
