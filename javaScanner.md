@@ -1,3 +1,4 @@
+# Java 4 April  - group work
 # We are trying out Java Scanner feature
 ## this our first lame code:
 ```java
