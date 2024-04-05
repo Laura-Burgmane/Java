@@ -44,3 +44,29 @@ public class Main {
         }
       }
 ```
+## 💡 class, scope, methods
+```java
+//Saprast, kāpēc izdrukā rezultātu 14 - 200 - 50 (bet ne 20)
+
+public class Main {
+
+  static int sharedValue = 200;
+    
+    public static void main(String[] args) {
+      int mainValue = 14;
+      System.out.println (mainValue);
+      secondMethod();
+      firstMethod();
+    }
+    
+    public static void firstMethod (){
+      int firstValue = 50;
+      System.out.println (firstValue);
+    }
+
+    public static void secondMethod (){
+     int secondValue = 120;
+      System.out.println(sharedValue);    
+    }   
+  }
+```  
