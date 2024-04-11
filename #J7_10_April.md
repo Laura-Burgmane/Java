@@ -58,3 +58,19 @@ public class Main {
   }
 }
 ```
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    
+    System.out.println("Hello world!");
+
+    int amountOfTimesToDuck = 10;
+    while (amountOfTimesToDuck != 0) {
+      System.out.println(amountOfTimesToDuck);
+      amountOfTimesToDuck = amountOfTimesToDuck - 1;
+    }
+    
+  }
+}
+```
