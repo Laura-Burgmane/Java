@@ -1,3 +1,5 @@
+
+# triange left
 ```java
 import java.util.Scanner;
 
@@ -17,7 +19,7 @@ public class Main {
   }
 }
 ```
-
+# triange right
 ```java
 import java.util.Scanner;
 
