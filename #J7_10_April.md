@@ -74,3 +74,33 @@ public class Main {
   }
 }
 ```
+
+# loops: while (with f-string and boolean)
+```java
+public class Main {
+  public static void main(String[] args) {
+    
+    System.out.println("Hello world!");
+
+    int i = 1; 
+    boolean isEven = false; // First NUMBER IS ALWAYS ODD
+    // isEven is True for second Number
+    //Counts from 0 to 10
+    //Provides whether or not the number is even or odd
+    
+    while (i <= 10) {
+      String result = "";
+      if (isEven == true){
+        result = "even";
+      } else {
+        result = "odd";
+      }
+      System.out.println(i + " " + result);
+      i = i + 1;
+      isEven = !isEven; 
+      // isEven == true -> isEven = false
+      // isEven == false -> isEven = true;
+    }
+  }
+}
+```
