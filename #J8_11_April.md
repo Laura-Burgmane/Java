@@ -197,3 +197,50 @@ public class Main {
   }
 }
 ```
+## Teamwork 2
+
+```java
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+
+    // user enters a number X
+    // prints numbers from 0 to that number X
+    // divided by 3 - Wo
+    // divided by 5 - Tech
+    // divided by 3 and 5 - WoTech
+    // if else - print X
+
+    // How to get a box around WoTech?
+    // 1st line - to print 11 times equal sign "="
+    // 2nd line - starts with "|" and 9 " " and "|"
+    // 3 rd line - starts with "|" then " " + "WoTech" + " " + "|"
+    // 4th line - starts with "|" and 9 " " and "|"
+    // 5th line - to print 11 times equal sign "="
+    // lineResult = lineResult + underscoresResult; // Combining 4 spaces and 1 underscore
+    
+    System.out.println("Type WoTech");
+    String wotech = scanner.nextLine();
+  
+    String line = "==========";
+    String emptyLine = "|        |";
+    String woTechLine = "| WoTech |";
+    String emptyLine2 = "|        |";
+    String line2 = "==========";
+  
+        System.out.println(line);
+        System.out.println(emptyLine);
+        System.out.println(woTechLine);
+        System.out.println(emptyLine2);
+        System.out.println(line2);
+
+// another way to print out:
+//System.out.println(line + "\n" + emptyLine + "\n" + woTechLine + "\n" + emptyLine2 + "\n" + line2);
+    scanner.close();
+   
+  }
+}
+```
