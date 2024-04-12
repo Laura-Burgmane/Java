@@ -3,7 +3,7 @@
 
 - Introduction in loops
 - Learning about details in "while" and "for" loops to accomplish simple tasks.
-- __Team work:__ Talk about differences in-between "for" and "while" and figure out which works best for certain scenarious.
+- __Team work:__ Talk about differences in-between "for" and "while" and figure out which works best for certain scenarious. 😫(** we didn't manage to do the teamwork even with extra 30 mins (5.30-7.00)**)😫
 
 
 ## Oskars code:
