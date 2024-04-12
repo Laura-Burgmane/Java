@@ -1,4 +1,12 @@
-
+## Java
+# Loops ||
+- Diving deep in for and while loops
+- Experimenting with both loops.
+- __Team work:__ Develop a program, that iterates through numbers from 0 till 15.
+-- For numbers that are divided by 3: print out "Wo";
+-- For numbers that are divided by 5: print out "Tech";
+-- For numbers divided by 3 and 5: print out "WoTech".
+  
 # triangle left
 ```java
 import java.util.Scanner;
