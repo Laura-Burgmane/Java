@@ -161,6 +161,7 @@ public class Main {
 }
 ```
 ## Teamwork 1
++ Team work: Develop a program, that iterates through numbers from 0 till X amount of times (X is user provided);for numbers that are divided by 3: print out "Wo"; for numbers that are divided by 5: print out "Tech"; or numbers divided by 3 and 5: print out "WoTech".
 
 ```java
 import java.util.Scanner;
@@ -198,6 +199,7 @@ public class Main {
 }
 ```
 ## Teamwork 2
++ User provides a text, and then the program puts it in a square, for example, if user provides "WoTech"
 
 ```java
 import java.util.Scanner;
