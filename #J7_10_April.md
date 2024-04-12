@@ -1,7 +1,12 @@
 # Java
+## Loops |
+
+- Introduction in loops
+- Learning about details in "while" and "for" loops to accomplish simple tasks.
+-__Team work:__ Talk about differences in-between "for" and "while" and figure out which works best for certain scenarious.
 
 
-# Oskars code:
+## Oskars code:
 Simple while loop, counting to 10
 
 ```java
