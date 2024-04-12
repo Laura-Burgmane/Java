@@ -160,3 +160,40 @@ public class Main {
   }
 }
 ```
+## Teamwork 1
+
+```java
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+
+    // user enters a number X
+    // prints numbers from 0 to that number X
+    // divided by 3 - Wo
+    // divided by 5 - Tech
+    // divided by 3 and 5 - WoTech
+    // if else - print X
+    System.out.println("Enter a number: ");
+    int number = scanner.nextInt(); //waiting for a number
+  
+
+    for (int i = 1; i <= number; i++) {
+      if (i % 3 == 0 && i % 5 == 0) {
+        System.out.println("WoTech");
+      } else if (i % 3 == 0) {
+        System.out.println("Wo");
+      } else if (i % 5 == 0) {
+        System.out.println("Tech");
+      } else {
+        System.out.println(i);
+      }
+    }
+    
+    scanner.close();
+   
+  }
+}
+```
