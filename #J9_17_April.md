@@ -73,3 +73,29 @@ public class Main {
   }
 }
 ```
+# kvadrāta mājas darba izskaidrojums
+
+```java
+
+/*
+// Padding is 3 characters long on one side
+// Border is 1 character long on one side
+=======================================================
+|                                                     |
+|   A very long string that is this characters long   |
+|                                                     |
+=======================================================
+//WoTech = 6 characters long
+// Width of the rectangle = 6 + 3 * 2 + 1 * 2 = 14
+1. User writes a string -> any size
+2. Calculate the width of the rectangle
+  2.1. How long of a message we have
+  2.2. Sum of messageLength and padding and borders
+3. Print out upper border ==============
+4. Print out an empty line with border |            |
+5. Print out border + padding + text + padding + border
+5. Print out an empty line with border |            |
+6. Print out lower border ==============
+*/
+```
+
