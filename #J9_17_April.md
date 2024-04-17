@@ -118,3 +118,37 @@ public class Main {
   }
 }
 ```
+ # more arrays:
+
+ ```java
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in); //
+
+    int[] arr = new int[5]; // Bounds is from 0 to 4
+    // We ask the computer to create a closet
+    //Where we could put 5 different boxes of a number
+    // arr[0] = 5
+    // arr[1] = 8
+    // arr[2] = 13
+    // arr[3] = 54
+    // arr[4] = 80
+    // arr[5] Index out of bounds
+
+    for (int i = 0; i < arr.length; i++) { // 0 ... 1 -> 4
+      //int number = scanner.nextInt();
+      //arr[5] = scanner.nextInt();
+      arr[i] = scanner.nextInt(); // 80
+      
+    }
+
+    for (int i = 0; i < arr.length; i++) { // 0 -> 4
+      System.out.println(arr[i]); // We are accessing arr[3]
+    }
+    
+    scanner.close();//
+  }
+}
+```
