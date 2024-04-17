@@ -98,4 +98,23 @@ public class Main {
 6. Print out lower border ==============
 */
 ```
+# arrays
+```java
+import java.util.Scanner; 
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    int[] arr = new int[5];
 
+    for(int i = 0; i < arr.length; i++){ //[0], [1], [2]
+      arr[i] = scanner.nextInt();
+    }
+    
+    for(int i = 0; i < arr.length; i++){
+      System.out.println(arr[i]);
+    }
+
+  }
+}
+```
