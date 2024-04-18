@@ -6,7 +6,7 @@
 - __Team work:__ Find maximum and minimum values in integer array.
 
 
-# yesterday's hard task:
+## yesterday's hard task:
 ```java
 /*
 A step by step solution to the largest number (I will give hints only for largest number, but the solution for both are the same)
@@ -53,7 +53,7 @@ public class Main {
 }
 ```
 
-# this is the same thing, different way written down:
+## this is the same thing, different way written down:
 
 ```java
     int[] numbers = new int[5];
@@ -67,7 +67,7 @@ public class Main {
 ```java
 int[] numbers = {1, 7, 3, -2, 100};
 ```
-# simple/basic way without for loop:
+## simple/basic way without for loop:
 ```java
 /*
 A step by step solution to the largest number (I will give hints only for largest number, but the solution for both are the same)
@@ -127,7 +127,7 @@ public class Main {
 }
 ```
 
-# normal way with for loop:
+## normal way with for loop:
 ```java
     //We declare i as 0
     for(int i = 0; i < numbers.length; i++) { // If i < array size, we go in a loop
@@ -137,4 +137,5 @@ public class Main {
       //End of the cycle
     } // At the end of the cycle we increment i by 1
 ```
-## check if the item is on the list:
+## check if the item (provided by user) is on the list:
+
