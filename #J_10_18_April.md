@@ -236,3 +236,59 @@ public class Main {
   }
 }
 ```
+## another code...
+```java
+/*
+
+We have an array with different numbers {1, 3, 4, 2, 5, 8}
+
+User is providing a number
+
+Check whether or not this number exists in the array
+
+1. Define an array with numbers
+2. Ask the user for a favouriteNumber
+3. Defining a isFound boolean (represents whether or not the number is found)
+4. Go through the array with a for loop
+4.1. On every cycle we check whether or not the number is equal to the favouriteNumber
+4.1.1. If it is, we set isFound to true and exit the searching loop with a "break;"
+4.1.2. If it is not, we set isFound to false and we repeat the 4.1. steps 
+5. At the end of the cycle we check whether or not isFound is true
+5.1. If isFound == true -> Then we print your favourite number is found
+5.2. If isFound == false -> Then we print NOT FOUND!
+
+*/
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    int[] numbers = { 1, 3, 4, 2, 5, 8, 1000 }; // numbers.length = size of the numbers = 6
+
+    System.out.println("Please write your favourite digit");
+
+    Scanner scanner = new Scanner(System.in);
+    int favouriteNumber = scanner.nextInt(); // 2
+
+    boolean isFound = false; // default value is that it is not found
+    
+    for (int i = 0; i < numbers.length; i++) { // GO through every index in the array
+          //       2 == 2
+      if (numbers[i] == favouriteNumber) { // if the number is equal to the favouriteNumber
+        isFound = true;
+        break; //EXITS THE FOR LOOP ALTOGETHER, ignoring the i < numbers.length
+      } // If the number is not equal -> move on to the next cycle
+      
+    }
+    
+    if(isFound == true){
+      System.out.println("Your favourite number " + favouriteNumber + " is in the array!");
+    } else {
+      System.out.println("Your favourite number " + favouriteNumber + " is NOT FOUND!");
+    }
+    
+    scanner.close();
+  }
+}
+```
