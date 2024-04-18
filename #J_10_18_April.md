@@ -4,7 +4,7 @@
 - Diving deep in arrays
 - Using loops to print out array values
 - __Team work:__ Find maximum and minimum values in integer array.
-__Easy:__ 
+- __Easy:__ 
 Fill the array with random numbers
 
 Find the sum of all elements in the array.
