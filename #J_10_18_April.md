@@ -180,3 +180,16 @@ public class Main {
   }
 }
 ```
+## description in human language:
+```java
+1. Define an array with numbers
+2. Ask the user for a favouriteNumber
+3. Defining a isFound boolean (represents whether or not the number is found)
+4. Go through the array with a for loop
+4.1. On every cycle we check whether or not the number is equal to the favouriteNumber
+4.1.1. If it is, we set isFound to true and exit the searching loop with a "break;"
+4.1.2. If it is not, we set isFound to false and we repeat the 4.1. steps 
+5. At the end of the cycle we check whether or not isFound is true
+5.1. If isFound == true -> Then we print your favourite number is found
+5.2. If isFound == false -> Then we print NOT FOUND!
+```
