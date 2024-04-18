@@ -126,3 +126,14 @@ public class Main {
   }
 }
 ```
+
+# normal way with for loop:
+```java
+    //We declare i as 0
+    for(int i = 0; i < numbers.length; i++) { // If i < array size, we go in a loop
+      //Start of the cycle
+      System.out.println(i); // 0 1 2 3 4
+
+      //End of the cycle
+    } // At the end of the cycle we increment i by 1
+```
