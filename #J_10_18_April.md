@@ -52,3 +52,18 @@ public class Main {
   }
 }
 ```
+
+# this is the same thing, different way written down:
+
+```java
+    int[] numbers = new int[5];
+
+    numbers[0] = 1;
+    numbers[1] = 7;
+    numbers[2] = 3;
+    numbers[3] = -2;
+    numbers[4] = 100;
+```
+```java
+int[] numbers = {1, 7, 3, -2, 100};
+```
