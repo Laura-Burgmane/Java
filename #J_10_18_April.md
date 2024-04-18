@@ -4,6 +4,24 @@
 - Diving deep in arrays
 - Using loops to print out array values
 - __Team work:__ Find maximum and minimum values in integer array.
+__Easy:__ 
+Fill the array with random numbers
+
+Find the sum of all elements in the array.
+For example in an array like this:
+[2, 3, 5, 1]
+Result: 11 (2 + 3 + 5 + 1)
+
+Find all the elements in the array that is below 0
+[-2, 3, -5, 1]
+Result:
+-2
+-5
+
+Fill the party list with people you would like to invite to the party.
+Check whether or not "Anna" is in the array.
+Check whether or not "Maris" is in the array.
+["Oskars", "Anna", "Andris"]
 
 
 ## yesterday's hard task:
