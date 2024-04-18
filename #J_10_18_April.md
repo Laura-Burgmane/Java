@@ -137,3 +137,4 @@ public class Main {
       //End of the cycle
     } // At the end of the cycle we increment i by 1
 ```
+## check if the item is on the list:
