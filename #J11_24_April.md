@@ -1,6 +1,6 @@
 # Java
 
-## last weeks homework rewiev:
+## last weeks homework review:
 
 ```java
 public class Main {
@@ -40,3 +40,32 @@ public class Main {
   }
 }
 ```
+
+```java
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    
+    String[] partyList = {"Oskars", "Maris", "Andrea"};
+
+    Scanner scanner = new Scanner(System.in);
+    String name = scanner.nextLine();
+    
+    boolean isInvited = false;
+    
+    for (int i = 0; i < partyList.length; i++){
+      if(partyList[i].equals(name)){
+        isInvited = true;
+        System.out.println(name + " is invited");
+        break;
+      }
+    }
+
+    if(!isInvited){
+      System.out.println(name + " is not invited");
+    }
+  }
+}
+```
+
