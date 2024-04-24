@@ -178,3 +178,39 @@ public class Main {
   }
 }
 ```
+## smth very confusing:
+
+```java
+/*
+  Write a name and check whether or not it is atleast 3 char long
+   Write a surname and check whether or not it is atleast 3 char long
+If it's not, then say. Sorry, your name is too short.
+If both of them are valid, say. Thank you, your information has been registered!
+*/
+
+public class Main{
+  public static void main(String[] args){
+
+    String name = "Oskars";
+    String surname = "Klaumanis";
+    boolean isUserNameValid = isNameValid(name);
+    boolean isUserSurnameValid = isNameValid(surname);
+
+    if(isUserNameValid && isUserSurnameValid){
+      System.out.println("Thank you, your information has been registered!")
+    } else {
+      System.out.println("Sorry, your check your information");
+    }
+    
+  }
+
+  public static boolean isNameValid(String name){
+    if(name.length() < 3){
+      System.out.println("Sorry, your name is too short.");
+      return false;
+    }
+
+    return true;
+  }
+}
+```
