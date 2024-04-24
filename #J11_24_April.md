@@ -130,4 +130,21 @@ Printing to the console is a way to display information to the user or to help w
 
 On the other hand, returning a value from a method means providing a result back to the calling part of the program so that it can use that result in its calculations or operations.
 
+//Access modifiers:
+//public
+//private
+//protected
+
+//Whether or not the function is static:
+//static
+//
+
+//Return type:
+//void
+//int
+//String
+//int[]
+//boolean
+//... ...
+
 
