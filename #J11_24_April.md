@@ -93,3 +93,33 @@ public class Main {
 }
 ```
 
+```java
+public class Main {
+  
+  public static void main(String[] args) {
+    printOutABorder();
+    
+    System.out.println("Hello world!");
+    int number = getARandomNumber();
+    System.out.println(number);
+    printOutABorder();
+  }
+
+
+  public static void printOutABorder() {
+    //Function starts here
+    System.out.println("=====================");
+    //Function ends here
+  }
+
+  public static int getARandomNumber() {
+    //Function starts here
+    return 5;
+    //Function ends here
+  }
+}
+
+// void == Returns nothing; This is just an action
+```
+
+
