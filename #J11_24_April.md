@@ -147,4 +147,22 @@ On the other hand, returning a value from a method means providing a result back
 //boolean
 //... ...
 
+## 2 equivalent codes:
+
+```java
+public class Main {
+  
+  public static void main(String[] args) {
+    int number1 = 5;
+    int number2 = 7;
+    int result = sum(number1, number2);
+    System.out.println(result);
+  }
+
+
+  public static int sum (int number1, int number2) {
+    return number1 + number2;
+  }
+}
+```
 
