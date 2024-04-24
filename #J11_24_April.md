@@ -253,3 +253,30 @@ public class Main{
   }
 }
 ```
+
+## teamwork task for today:
+
+Easy:
+
+Sum of 2 numbers
+User provides 2 numbers
+Result is a sum of those numbers
+
+Example: 
+User inputs 5
+User inputs 6
+Result: 11
+
+Hard:
+1. Create a program, where user can provide a title and a small text below the story.
+Title should be wrapped with ====== at top and bottom, based on the title length.
+Example: 
+System asks for title and user provides "WoTech and Java is easy"
+System asks for description and user provides "I have been learning Java for 6 weeks now."
+
+Result: 
+=======================
+WoTech and Java is easy
+=======================
+
+I have been learning Java for 6 weeks now.
