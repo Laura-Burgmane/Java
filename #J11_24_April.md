@@ -121,5 +121,13 @@ public class Main {
 
 // void == Returns nothing; This is just an action
 ```
+For anyone who also struggles with understanding what "returning a value" means: 
+
+In the context of methods in Java, "returning a value" means providing a result back to the part of the program that called the method.
+
+Printing something to the console using the System.out.println() method in Java is not the same as returning a value.
+Printing to the console is a way to display information to the user or to help with debugging, but it does not provide a result back to the part of the program that called the method. Instead, it outputs the information directly to the console for human viewing.
+
+On the other hand, returning a value from a method means providing a result back to the calling part of the program so that it can use that result in its calculations or operations.
 
 
