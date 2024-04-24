@@ -71,3 +71,25 @@ public class Main {
 
 ## Methods
 
+```java
+public class Main {
+
+  
+  public static void main(String[] args) {
+    printOutABorder();
+    
+    System.out.println("Hello world!");
+    
+    printOutABorder();
+  }
+
+  public static void printOutABorder() {
+    //Function starts here
+    
+    System.out.println("=====================");
+
+    //Function ends here
+  }
+}
+```
+
