@@ -282,4 +282,38 @@ public class Main {
   }
 }
 ```
+## void for action; return for String method:
+```java
+public class Main {
+  public static void main(String[] args) {
+    int number = 51;
+
+    String result = checkNumber(number);
+    System.out.println(result);
+    
+    int number2 = 49;
+    
+    String result2 = checkNumber(number2);
+    System.out.println(result2);
+    /* We get the number
+    We check whether or not it is bigger than 50
+    We check whether or not it is smaller than 50
+    We assume it is equal to 50 if all of the upper conditions are false
+    */
+  }
+  //Void is just for action
+  //int it is returning a number
+  //string is returning a text
+  //double is returning a double 
+  //...
+  public static String checkNumber(int number){
+    if(number > 50){
+      return "Number is greater than 50";
+    }else if(number < 50){
+      return "Number is less than 50";
+    }else{
+      return "Number is equal to 50";  
+    }
+  }
+}
 ```
