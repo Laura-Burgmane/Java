@@ -1,4 +1,10 @@
 # Java
+## Methods |
+
+- Introduction in methods
+- Learning about return
+- __Team work:__ Various tasks where methods are useful
+
 
 ## last weeks homework review:
 
@@ -69,7 +75,7 @@ public class Main {
 }
 ```
 
-## Methods
+# Methods
 
 ```java
 public class Main {
