@@ -317,3 +317,9 @@ public class Main {
   }
 }
 ```
+
+## "Return" is like making the sandwich for someone else. You put in all the ingredients, make the sandwich, and then give it to someone. They can then do whatever they want with it, like eat it or share it.
+
+On the other hand, "print.ln" is like showing off your sandwich to everyone else. You still make the sandwich, but instead of giving it to someone, you just show it to others. They can see it and know what it looks like, but they can't really do anything with it. They can't eat it or take it with them.
+
+So, in simple terms, "return" gives something to be used later, while "print.ln" just shows something without giving it away.
