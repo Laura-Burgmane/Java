@@ -347,3 +347,27 @@ public class Main {
 }
 
 ```
+```java
+// 7, 12, 18 
+// Needs to sum them all together
+
+
+public class Main {
+  public static void main(String[] args) {
+    int number1 = 7;
+    int number2 = 12;
+    
+    int number3 = 18;
+
+    int result = sum(number1, number2); // 7 + 12 = 19
+
+    int finalResult = sum(result, number3); // 19 + 18 = 37
+
+    System.out.println(finalResult);
+  }
+
+  public static int sum(int a, int b){
+    return a + b;
+  }
+}
+```
