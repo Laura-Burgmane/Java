@@ -323,3 +323,27 @@ public class Main {
 On the other hand, "print.ln" is like showing off your sandwich to everyone else. You still make the sandwich, but instead of giving it to someone, you just show it to others. They can see it and know what it looks like, but they can't really do anything with it. They can't eat it or take it with them.
 
 So, in simple terms, "return" gives something to be used later, while "print.ln" just shows something without giving it away.
+
+## more examples:
+```java
+public class Main {
+  public static void main(String[] args) {
+    int money = 50;
+
+    String result = buyJeans(money);
+
+    System.out.println(result);
+  }
+
+  public static String buyJeans(int money){
+    int price = 30;
+    if(money > price) // 29.99
+    {
+      return "Person can afford Jeans";
+    }else{
+      return "Person cannot afford Jeans";
+    }
+  }
+}
+
+```
