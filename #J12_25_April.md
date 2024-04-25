@@ -251,4 +251,35 @@ public class Main {
   }
 }
 ```
+
+## purpose of methods to avoid repeating the code for the same action:
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    int number = 51;
+
+    checkNumber(number);
+
+    int number2 = 49;
+    
+    checkNumber(number2);
+    /* We get the number
+    We check whether or not it is bigger than 50
+    We check whether or not it is smaller than 50
+    We assume it is equal to 50 if all of the upper conditions are false
+    */
+  }
+
+  public static void checkNumber(int number){
+    if(number > 50){
+      System.out.println("Number is greater than 50");
+    }else if(number < 50){
+      System.out.println("Number is less than 50");
+    }else{
+      System.out.println("Number is equal to 50");  
+    }
+  }
+}
+```
 ```
