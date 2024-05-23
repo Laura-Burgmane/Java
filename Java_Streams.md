@@ -89,3 +89,36 @@ public class Main {
     }
 }
 ```
+
+Vēl kaut kas:
+
+```java
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        var shopsItems = new ArrayList<String>();
+        shopsItems.add("Glass table");
+        shopsItems.add("Wooden table");
+        shopsItems.add("Round table");
+        shopsItems.add("Doors");
+        shopsItems.add("Trapdoor");
+        shopsItems.add("Couch");
+        shopsItems.add("Bed");
+        shopsItems.add("Sofa");
+        
+        shopsItems
+            .stream()
+            //.filter(x -> x.contains("table"))
+            .forEach(x -> Print(x));
+
+    }
+
+    public static void Print(String text) {
+        System.out.println();
+        System.out.println(text);
+    }
+}
+```
