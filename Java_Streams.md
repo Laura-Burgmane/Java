@@ -23,3 +23,11 @@ public class Main {
     }
 }
 ```
+Introducing Stream functionality: (with some kind of issues)
+
+```java
+        var filteredShopsItems = shopsItems
+            .stream()
+            .filter(item -> item.contains("table"))
+            .collect(Collectors.toList());
+```
