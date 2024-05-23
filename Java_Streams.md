@@ -1,4 +1,4 @@
-Array String, filtering items containing word "table":
+# Array String, filtering items containing word "table":
 
 ```java
 public class Main {
@@ -23,7 +23,7 @@ public class Main {
     }
 }
 ```
-Introducing Stream functionality: (with some kind of issues)
+# Introducing Stream functionality: (with some kind of issues)
 
 ```java
         var filteredShopsItems = shopsItems
@@ -31,7 +31,7 @@ Introducing Stream functionality: (with some kind of issues)
             .filter(item -> item.contains("table"))
             .collect(Collectors.toList());
 ```
-Te pilns kods ar Stream lietām praktiskā darbībā:
+# Te pilns kods ar Stream lietām praktiskā darbībā:
 
 ```java
 import java.util.ArrayList;
@@ -61,7 +61,7 @@ public class Main {
 }
 ```
 
-Vēl par šo pašu tēmu:
+# Vēl par šo pašu tēmu:
 
 ```java
 import java.util.ArrayList;
@@ -90,7 +90,7 @@ public class Main {
 }
 ```
 
-Vēl kaut kas:
+# Vēl kaut kas:
 
 ```java
 import java.util.ArrayList;
