@@ -1,3 +1,5 @@
+Array String, filtering items containing word "table":
+
 ```java
 public class Main {
     public static void main(String[] args) {
