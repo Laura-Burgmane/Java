@@ -1,5 +1,7 @@
 ## full IntelliJ code:
+
 ```java
+
 package com.datorium.Datorium.API;
 
 import org.springframework.boot.SpringApplication;
@@ -52,6 +54,7 @@ public class DatoriumApiApplication {
 		return smartArray;
 	}
 }
+
 ```
 ## requests for web:
 localhost:8080/basicArray
